@@ -17,8 +17,6 @@
                 "type": "Point",
                 "coordinates": [58.70528588, 59.47370777]
               },
-              "options": {
-              },
               "properties": {
                 "country": "russia",
                 "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Качканар Центр</h3>",

@@ -20,8 +20,25 @@ body {
   filter: grayscale(1);
 }
 
+[class*="balloon__layout"],
+[class*="balloon__content"],
+[class*="balloon__tail"],
+[class*="balloon__tail"]::after {
+  font: 13px/20px "HelveticaNeueCyr-Roman", sans-serif !important;
+
+  background: $filter-blue !important;
+}
+
+[class*="balloon__close-button"] {
+  background: url(../src/Close.png) 50% no-repeat !important;
+}
+
+[class*="balloon-content__header"] ~ a[href^="tel:"] {
+  color: white !important;
+}
+
 a {
-  font-family: HelveticaNeueCyr-Roman;
+  font-family: "HelveticaNeueCyr-Roman";
 
   text-decoration: none;
 
@@ -45,7 +62,7 @@ h4 {
 }
 
 p {
-  font-family: HelveticaNeueCyr-Roman;
+  font-family: "HelveticaNeueCyr-Roman";
 
   font-size: 14px;
 }
@@ -214,8 +231,17 @@ li {
   }
 }
 
-.balloon__office-name{
+.balloon__office-name {
+  font-family: "HelveticaNeueCyr" !important;
+
+  font-family: serif;
   color: $filter-orange;
+}
+
+.balloon__office-contact {
+  font-weight: normal;
+
+  color: #fff;
 }
 
 .map {
