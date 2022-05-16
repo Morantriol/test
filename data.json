@@ -1,0 +1,336 @@
+[
+  {
+    "countryId": "russia",
+    "countryName": "Россия",
+    "cities": [
+      {
+        "name": "Качканар",
+        "offices": [
+          {
+            "name": "Офис Качканар Центр",
+            "contactName": "Самозванцев Дмитрий Олегович",
+            "tel": ["+7(982) 111-23-42"],
+            "email": "whoami@gmail.com",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [58.70528588, 59.47370777]
+              },
+              "options": {
+              },
+              "properties": {
+                "country": "russia",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Качканар Центр</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Самозванцев Дмитрий Олегович</h4><a href='tel:+79821112342'>+7(982) 111-23-42</a><a class='balloon__office-email' href='mailto:whoami@gmail.com'>whoami@gmail.com</a>"
+              }
+            }
+          },
+          {
+            "name": "Офис Качканар",
+            "contactName": "Самозванцев Дмитрий Олегович",
+            "tel": ["+7(495) 123-45-67", "+7(495) 123-55-45"],
+            "email": "whoami@gmail.com",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [58.69545279, 59.46478999]
+              },
+              "properties": {
+                "country": "russia",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Качканар</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Самозванцев Дмитрий Олегович</h4><a href='tel:+74951234567'>+7(495) 123-45-67</a><a href='tel:+74951235545'>+7(495) 123-55-45</a><a class='balloon__office-email' href='mailto:whoami@gmail.com'>whoami@gmail.com</a>"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Москва",
+        "offices": [
+          {
+            "name": "Офис Москва Центр",
+            "contactName": "Путин Владимир Владимирович",
+            "tel": ["Кто ж бы знал"],
+            "email": "putin@gmail.com",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [55.77838199, 37.69110087]
+              },
+              "properties": {
+                "country": "russia",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Москва Центр</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Путин Владимир Владимирович</h4><a href='tel:Кто ж бы знал'>Кто ж бы знал</a><a class='balloon__office-email' href='mailto:putin@gmail.com'>putin@gmail.com</a>"
+              }
+            }
+          },
+          {
+            "name": "Офис Москва",
+            "contactName": "Песков Дмитрий Сергеевич",
+            "tel": ["+7(495) 123-45-67", "+7(495) 123-55-45"],
+            "email": "peskov@gmail.com",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [55.72737092, 37.49274454]
+              },
+              "properties": {
+                "country": "russia",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Москва</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Песков Дмитрий Сергеевич</h4><a href='tel:+74951234567'>+7(495) 123-45-67</a><a href='tel:+74951235545'>+7(495) 123-55-45</a><a class='balloon__office-email' href='mailto:peskov@gmail.com'>peskov@gmail.com</a>"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Екатеринбург",
+        "offices": [
+          {
+            "name": "Офис Екатерибург Центр",
+            "contactName": "Бесов Валерий Михайлович",
+            "tel": ["+7(982) 800-85-00", "+7(495) 123-70-57"],
+            "email": "bes@mail.ru",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [56.82595283, 60.60520967]
+              },
+              "properties": {
+                "country": "russia",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Екатерибург Центр</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Бесов Валерий Михайлович</h4><a href='tel:+79828008500'>+7(982) 800-85-00</a><a href='tel:+74951235545'>+7(495) 123-70-57</a><a class='balloon__office-email' href='mailto:bes@mail.ru'>bes@mail.ru</a>"
+              }
+            }
+          },
+          {
+            "name": "Офис Екатерибург",
+            "contactName": "Городов Дмитрий Егорович",
+            "tel": ["+7(495) 123-33-33", "+7(495) 123-70-57"],
+            "email": "city@mail.ru",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [56.83989099, 60.61404521]
+              },
+              "properties": {
+                "country": "russia",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Екатерибург</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Городов Дмитрий Егорович</h4><a href='tel:+79828008500'>+7(495) 123-33-33</a><a href='tel:+74951235545'>+7(495) 123-70-57</a><a class='balloon__office-email' href='mailto:city@mail.ru'>city@mail.ru</a>"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Владивосток",
+        "offices": [
+          {
+            "name": "Офис Владивосток",
+            "contactName": "Двухтысичик Владимир Витальевич",
+            "tel": ["+7(962) 654-25-13"],
+            "email": "vlad2000@rambler.ru",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [43.1288215, 131.89073253]
+              },
+              "properties": {
+                "country": "russia",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Владивосток</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Двухтысичик Владимир Витальевич</h4><a href='tel:+79828008500'>+7(962) 654-25-13</a><a class='balloon__office-email' href='mailto:vlad2000@rambler.ru'>vlad2000@rambler.ru</a>"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Новый Уренгой",
+        "offices": [
+          {
+            "name": "Офис Новый Уренгой ",
+            "contactName": "Случайнов Сергей Максимович",
+            "tel": ["+7(922) 645-63-19", "+7(962) 654-25-13"],
+            "email": "atrandom@gmail.com",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [66.08664965, 76.67867112]
+              },
+              "properties": {
+                "country": "russia",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Новый Уренгой</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Случайнов Сергей Максимович</h4><a href='tel:+79828008500'>+7(922) 645-63-19</a><a href='tel:+79828008500'>+7(962) 654-25-13</a><a class='balloon__office-email' href='mailto:atrandom@gmail.com'>atrandom@gmail.com</a>"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "countryId": "belarus",
+    "countryName": "Беларуссия",
+    "cities": [
+      {
+        "name": "Минск",
+        "offices": [
+          {
+            "name": "Офис Минск Центр",
+            "contactName": "Лукашенко Александр Григорьевич",
+            "tel": ["+7(495) 123-45-67", "+7(495) 123-55-45"],
+            "email": "luka@yandex.ru",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [53.88985277, 27.57422545]
+              },
+              "properties": {
+                "country": "belarus",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Минск Центр</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Лукашенко Александр Григорьевич</h4><a href='tel:+79828008500'>+7(495) 123-45-67</a><a href='tel:+79828008500'>+7(495) 123-55-45</a><a class='balloon__office-email' href='mailto:luka@yandex.ru'>luka@yandex.ru</a>"
+              }
+            }
+          },
+          {
+            "name": "Офис Минск",
+            "contactName": "Лукашенко Александр Григорьевич",
+            "tel": ["+7(495) 123-45-67", "+7(495) 123-55-45"],
+            "email": "luka@yandex.ru",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [53.92277875, 27.49144447]
+              },
+              "properties": {
+                "country": "belarus",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Минск</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Лукашенко Александр Григорьевич</h4><a href='tel:+79828008500'>+7(495) 123-45-67</a><a href='tel:+79828008500'>+7(495) 123-55-45</a><a class='balloon__office-email' href='mailto:luka@yandex.ru'>luka@yandex.ru</a>"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Гомель",
+        "offices": [
+          {
+            "name": "Офис Гомель Центр",
+            "contactName": "Лукашенко Александр Григорьевич",
+            "tel": ["+7(495) 123-45-67", "+7(495) 123-55-45"],
+            "email": "luka@yandex.ru",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [52.40436881, 30.92778915]
+              },
+              "properties": {
+                "country": "belarus",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Гомель Центр</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Лукашенко Александр Григорьевич</h4><a href='tel:+79828008500'>+7(495) 123-45-67</a><a href='tel:+79828008500'>+7(495) 123-55-45</a><a class='balloon__office-email' href='mailto:luka@yandex.ru'>luka@yandex.ru</a>"
+              }
+            }
+          },
+          {
+            "name": "Офис Гомель",
+            "contactName": "Лукашенко Александр Григорьевич",
+            "tel": ["+7(495) 123-45-67", "+7(495) 123-55-45"],
+            "email": "luka@yandex.ru",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [52.46668899, 31.04486221]
+              },
+              "properties": {
+                "country": "belarus",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Гомель</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Лукашенко Александр Григорьевич</h4><a href='tel:+79828008500'>+7(495) 123-45-67</a><a href='tel:+79828008500'>+7(495) 123-55-45</a><a class='balloon__office-email' href='mailto:luka@yandex.ru'>luka@yandex.ru</a>"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Могилев",
+        "offices": [
+          {
+            "name": "Офис Могилев",
+            "contactName": "Лукашенко Александр Григорьевич",
+            "tel": ["+7(495) 123-45-67", "+7(495) 123-55-45"],
+            "email": "luka@yandex.ru",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [53.90260204, 30.28656021]
+              },
+              "properties": {
+                "country": "belarus",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Могилев</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Лукашенко Александр Григорьевич</h4><a href='tel:+79828008500'>+7(495) 123-45-67</a><a href='tel:+79828008500'>+7(495) 123-55-45</a><a class='balloon__office-email' href='mailto:luka@yandex.ru'>luka@yandex.ru</a>"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Витебск",
+        "offices": [
+          {
+            "name": "Офис Витебск",
+            "contactName": "Лукашенко Александр Григорьевич",
+            "tel": ["+7(495) 123-45-67", "+7(495) 123-55-45"],
+            "email": "luka@yandex.ru",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [55.17746026, 30.16021453]
+              },
+              "properties": {
+                "country": "belarus",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Витебск</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Лукашенко Александр Григорьевич</h4><a href='tel:+79828008500'>+7(495) 123-45-67</a><a href='tel:+79828008500'>+7(495) 123-55-45</a><a class='balloon__office-email' href='mailto:luka@yandex.ru'>luka@yandex.ru</a>"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "Гродно",
+        "offices": [
+          {
+            "name": "Офис Гродно",
+            "contactName": "Лукашенко Александр Григорьевич",
+            "tel": ["+7(495) 123-45-67", "+7(495) 123-55-45"],
+            "email": "luka@yandex.ru",
+            "placemark": {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [53.69253816, 23.82633775]
+              },
+              "properties": {
+                "country": "belarus",
+                "balloonContentHeader": "<h3 class='balloon__office-name'>Офис Гродно</h3>",
+                "balloonContentBody": "<h4 class='balloon__office-contact'>Лукашенко Александр Григорьевич</h4><a href='tel:+79828008500'>+7(495) 123-45-67</a><a href='tel:+79828008500'>+7(495) 123-55-45</a><a class='balloon__office-email' href='mailto:luka@yandex.ru'>luka@yandex.ru</a>"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
