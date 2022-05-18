@@ -33,6 +33,10 @@ export const createOfficeList = (data) => {
         $spoilerOfficeName.textContent = office.name;
         $spoilerOfficeContact.textContent = office.contactName;
 
+        $spoilerOfficeEMail.addEventListener("click", (e) => {
+          e.stopPropagation();
+        });
+
         $spoilerOfficeEMail.textContent = office.email;
         $spoilerOfficeEMail.href = `mailto:${office.email}`;
 
@@ -44,6 +48,10 @@ export const createOfficeList = (data) => {
 
           $spoilerOfficeNumber.textContent = telNumber;
           $spoilerOfficeNumber.href = `tel:${telNumber}`;
+
+          $spoilerOfficeNumber.addEventListener("click", (e) => {
+            e.stopPropagation();
+          });
 
           $spoilerOfficeTel.appendChild($spoilerOfficeNumber);
         });
@@ -58,7 +66,7 @@ export const createOfficeList = (data) => {
 
       $spoilerTitle.textContent = city.name;
 
-      $spoiler.addEventListener("click", () => {
+      $spoilerControl.addEventListener("click", () => {
         $spoilerTitle.classList.toggle("spoiler__title--active");
         $spoilerIcon.classList.toggle("spoiler__icon--active");
       });

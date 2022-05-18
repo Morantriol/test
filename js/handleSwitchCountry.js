@@ -1,6 +1,6 @@
 export function handleSwitchCountry(e) {
   const $items = document.querySelectorAll(".sidebar__filter-item");
-  const $titles = document.querySelectorAll(".sidebar__title");
+  // const $titles = document.querySelectorAll(".sidebar__title");
   const $content = document.querySelectorAll(".wrapper__item");
   const $id = e.currentTarget.getAttribute("id");
 
@@ -8,9 +8,9 @@ export function handleSwitchCountry(e) {
     item.classList.remove("sidebar__filter-item--active");
   });
 
-  $titles.forEach(item => {
-    item.classList.remove("sidebar__title--active");
-  })
+  // $titles.forEach(item => {
+  //   item.classList.remove("sidebar__title--active");
+  // })
 
   e.currentTarget.classList.add("sidebar__filter-item--active");
 

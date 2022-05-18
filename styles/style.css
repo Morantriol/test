@@ -198,7 +198,7 @@ li {
   transform: rotate(-50deg);
 }
 .spoiler__content {
-  margin: 30px 35px;
+  padding: 30px 35px;
   border-bottom: 1px solid #ededed;
 }
 .spoiler__office-item {

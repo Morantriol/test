@@ -12,11 +12,32 @@ function init() {
 
   const points = [];
 
+  const $offices = document.querySelectorAll(".spoiler__office-item");
+
+  // $offices.forEach(office => {
+  //   office.addEventListener("click", () => {
+
+  //   })
+  // })
+
   data.forEach((country) => {
     country.cities.forEach((city) => {
       city.offices.forEach((office) => {
         let placemark = new ymaps.GeoObject(office.placemark);
         points.push(placemark);
+        $offices.forEach((officeEl) => {
+          if (
+            officeEl.addEventListener &&
+            officeEl.firstChild.innerHTML === office.name
+          ) {
+            officeEl.addEventListener("click", () => {
+              map.setCenter(office.placemark.geometry.coordinates, 15, {
+                checkZoomRange: true,
+                duration: 400,
+              });
+            });
+          }
+        });
       });
     });
   });
@@ -47,7 +68,9 @@ function init() {
 
     placemarks.remove(shownObjects).removeFromMap(map);
 
-    map.geoObjects.add(shownObjects.clusterize({ maxZoom: 10, zoomMargin: 300 }));
+    map.geoObjects.add(
+      shownObjects.clusterize({ maxZoom: 10, zoomMargin: 300 })
+    );
   }
 
   const $russia = document.getElementById("russia");
